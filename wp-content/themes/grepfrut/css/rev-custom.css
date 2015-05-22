@@ -1,0 +1,76 @@
+/* Stylesheet for revolution custom styles */
+
+.rev_slider_wrapper {
+	text-shadow: 0 1px 0 #000;
+}
+/****************************************************************************************************
+	-	TP THUMBS 	-
+*****************************************************************************************************/
+.tp-mask{
+	height:50px !important;
+	background: url('http://commondatastorage.googleapis.com/new-answerconnect/compressed_files/images/home_banner_tab_bg.jpg') left bottom no-repeat;
+	background-size: 940px 43px;
+	border-radius: 0 0 6px 6px;
+}
+.tp-thumbcontainer{
+	padding-top:13px;
+	margin-left: 3px;
+}
+.tp-bullets.tp-thumbs {
+	z-index:1000;
+	position:absolute;
+	padding:0 !important;
+	background-color: transparent;
+	width: 100% !important;
+	height: 74px; 			/* THE DIMENSIONS OF THE THUMB CONTAINER */
+	margin-top: -50px;
+	vertical-align: top;
+}
+.tp-bullets.tp-thumbs img {
+	width: auto;
+	height: auto;
+	background: none;
+	vertical-align: top;
+}
+.fullwidthbanner-container .tp-thumbs {
+	padding: 0 !important;
+}
+.tp-bullets.tp-thumbs .tp-mask {
+	width: 100% !important;
+	height: 74px;  			/* THE DIMENSIONS OF THE THUMB CONTAINER */
+
+}
+.tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
+	width:5000px;
+	position:absolute;
+}
+.tp-bullets.tp-thumbs .bullet {
+	width:180px;
+	height:74px;
+	margin: 0 2.5px 0 2.5px;		/* THE DIMENSION OF A SINGLE THUMB */
+	cursor:pointer;
+	overflow:hidden;
+	border-radius: 6px 6px 0 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	float:left;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	/*filter: alpha(opacity=100);	*/
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	padding: 0 !important;
+}
+.tp-bullets.tp-thumbs .bullet.selected {
+	background-color: rgba(0, 0, 0, 0.6);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.tp-thumbcontainer {
+	left: 0 !important;
+}

@@ -1,0 +1,7 @@
+i.mce-i-download {
+	font: normal 20px/1 'dashicons';
+}
+
+i.mce-i-download:before {
+	content: '\f316';
+}
